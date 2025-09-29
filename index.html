@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homely - Real Estate Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+                <span class="logo-text">Homely</span>
+            </div>
+
+            <div class="nav-right">
+                <a href="tel:+1-212-456-7890" class="phone-link">
+                    <svg class="phone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    +1-212-456-7890
+                </a>
+                <button class="menu-btn">Menu</button>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home">Home</a>
+        <a href="#categories">Properties</a>
+        <a href="#featured">Featured</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-location">Palm Springs, CA</div>
+                <h1 class="hero-title">
+                    Futuristic<br>Haven
+                </h1>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Get in touch</button>
+                    <button class="btn btn-secondary">View Details</button>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="property-showcase"></div>
+            </div>
+        </div>
+
+        <div class="property-info-card">
+            <div class="info-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+                <div class="info-text">4 Bedrooms</div>
+            </div>
+            <div class="info-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M9 6l6 6l-6 6"></path>
+                </svg>
+                <div class="info-text">Swingpool</div>
+            </div>
+            <div class="info-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"></path>
+                </svg>
+                <div class="info-text">Parking Space</div>
+            </div>
+            <div class="info-price">
+                <div class="price">$4,750,000</div>
+                <div class="price-label">For selling price</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <div class="section-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                </svg>
+                Categories
+            </div>
+            <h2 class="section-title">
+                Explore best properties with<br>expert services.
+            </h2>
+            <p class="section-description">
+                Discover a diverse range of premium properties, from luxurious apartments to spacious villas, tailored to your needs.
+            </p>
+            <button class="btn btn-primary">View Properties</button>
+
+            <div class="properties-grid">
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="images/home2.avif">
+                        <div class="property-overlay">
+                            <h3>Modern Villa</h3>
+                            <p>Luxury Living</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="images/home1.avif">
+                        <div class="property-overlay">
+                            <h3>Urban Apartment</h3>
+                            <p>City Life</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="images/home3.avif">
+                        <div class="property-overlay">
+                            <h3>Beach House</h3>
+                            <p>Coastal Paradise</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="images/home4.avif">
+                        <div class="property-overlay">
+                            <h3>Penthouse Suite</h3>
+                            <p>Premium Living</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Properties Carousel -->
+    <section id="featured" class="featured">
+        <div class="container">
+            <div class="section-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                </svg>
+                Featured property
+            </div>
+            <h2 class="section-title" id="featuredTitle">Modern Luxe Villa</h2>
+
+            <div class="carousel-container">
+                <div class="carousel-main">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide ">
+                            <div class="slide-image"><img src="images/home3.avif"></div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="slide-image"><img src="images/home6.avif"></div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="slide-image"><img src="images/home7.avif"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-dots" id="carouselDots"></div>
+                    <button class="carousel-btn prev" id="prevBtn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <button class="carousel-btn next" id="nextBtn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="property-details">
+                    <div class="detail-location" id="detailLocation">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        20 S Aurora Ave, Miami
+                    </div>
+
+                    <p class="detail-description" id="detailDescription">
+                        Experience luxury living at Modern Luxe Villa, located at 20 S Aurora Ave, Miami.
+                        This stunning smart home offers spacious living areas and modern amenities.
+                    </p>
+
+                    <div class="detail-features">
+                        <div class="feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                            </svg>
+                            <span id="detailBedrooms">4 Bedrooms</span>
+                        </div>
+                        <div class="feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M9 6l6 6l-6 6"></path>
+                            </svg>
+                            <span id="detailBathrooms">3 Bathrooms</span>
+                        </div>
+                        <div class="feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99z"></path>
+                            </svg>
+                            <span>Parking Space</span>
+                        </div>
+                        <div class="feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path d="M8 2h8l4 9H4l4-9z"></path>
+                                <path d="M12 11v10"></path>
+                            </svg>
+                            <span id="detailBars">2 Bar areas</span>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-primary btn-full">Get in touch</button>
+
+                    <div class="detail-price">
+                        <div class="price" id="detailPrice">$1,650,500</div>
+                        <div class="price-label">Discounted Price</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-tag">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                </svg>
+                Testimonials
+            </div>
+            <h2 class="section-title">What our clients says</h2>
+
+            <div class="testimonial-container">
+                <div class="testimonial-content">
+                    <div class="testimonial-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                        </svg>
+                    </div>
+                    <div class="testimonial-text">
+                        <p id="testimonialText">
+                            I found my ideal home in no time! The listings were detailed, the photos were accurate,
+                            and the whole process felt seamless. Customer service was top-notch, answering all my
+                            questions. I will definitely use this platform again in the future!
+                        </p>
+                        <div class="testimonial-author">
+                            <div class="author-name" id="testimonialName">Emily & John Smith</div>
+                            <div class="author-role" id="testimonialRole">Buyer</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-image">
+                    <div class="client-photo" id="clientPhoto">
+                        <img src="images/testemon1.avif">
+                    </div>
+                </div>
+
+                <div class="testimonial-dots" id="testimonialDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Section -->
+    <section class="interactive">
+        <div class="container-small">
+            <div class="rotate-section" id="rotateSection">
+                <div class="rotate-content">
+                    <video src="https://framerusercontent.com/assets/YBVRytrmInuZC9iFvG4acDpplg.mp4" loop preload="auto" playsinline style="cursor: auto; width: 100%; height: 100%; border-radius: 16px 16px 0px 0px; display: block; object-fit: cover; background-color: rgba(0, 0, 0, 0.6); object-position: 50% 50%;" autoplay>
+                        <button class="btn btn-primary">Get in touch</button>
+                    </video>
+                </div>
+            </div>
+            <div class="marquee">
+                <div class="marquee-content">
+                    BROWSE THOUSANDS OF LISTINGS IN PRIME LOCATIONS AT GREAT PRICES! •
+                    GET A FREE PROPERTY VALUATION—SELL YOUR HOME WITH CONFIDENCE! •
+                    BROWSE THOUSANDS OF LISTINGS IN PRIME LOCATIONS AT GREAT PRICES! •
+                    GET A FREE PROPERTY VALUATION—SELL YOUR HOME WITH CONFIDENCE! •
+                </div>
+            </div>
+
+<!--            <h2 class="section-title center">-->
+<!--                Enter a realm where exquisite design and<br>timeless luxury come together.-->
+<!--            </h2>-->
+
+<!--            <button class="btn btn-primary">Get in touch</button>-->
+
+<!--            <div class="marquee">-->
+<!--                <div class="marquee-content">-->
+<!--                    BROWSE THOUSANDS OF LISTINGS IN PRIME LOCATIONS AT GREAT PRICES! •-->
+<!--                    GET A FREE PROPERTY VALUATION—SELL YOUR HOME WITH CONFIDENCE! •-->
+<!--                    BROWSE THOUSANDS OF LISTINGS IN PRIME LOCATIONS AT GREAT PRICES! •-->
+<!--                    GET A FREE PROPERTY VALUATION—SELL YOUR HOME WITH CONFIDENCE! •-->
+<!--                </div>-->
+<!--            </div>-->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="newsletter">
+                    <p>Stay updated with the latest news, promotions, and exclusive offers.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button class="btn btn-white">Subscribe</button>
+                    </div>
+                </div>
+                <div class="newsletter-note">
+                    By subscribing, you agree to receive our promotional emails. You can unsubscribe at any time.
+                </div>
+            </div>
+
+            <div class="footer-main">
+                <div class="footer-cta">
+                    <h3>Begin your path to success<br>contact us today.</h3>
+                    <button class="btn btn-primary">Get in touch</button>
+                </div>
+
+                <div class="footer-links">
+                    <div class="link-column">
+                        <h4>Properties</h4>
+                        <ul>
+                            <li><a href="#">Luxury Villas</a></li>
+                            <li><a href="#">Residential Homes</a></li>
+                            <li><a href="#">Apartments</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="link-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">404 Page</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>©2025 Homely - Design & Developed by WrapPixel</div>
+                <div class="footer-legal">
+                    <a href="#">Terms of service</a>
+                    <a href="#">Privacy policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
